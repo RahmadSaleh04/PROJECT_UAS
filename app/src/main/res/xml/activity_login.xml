@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" orientation="vertical">
+    <EditText android:id="@+id/emailEdit" hint="Email" />
+    <EditText android:id="@+id/passwordEdit" hint="Password" android:inputType="textPassword" />
+    <Button android:id="@+id/loginButton" android:text="Login" />
+    <TextView android:id="@+id/forgotText" android:text="Forgot Password?" />
+    <TextView android:id="@+id/toRegister" android:text="Belum punya akun? Daftar" />
+</LinearLayout>
+
